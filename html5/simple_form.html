@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2 align="center">FORM REGISTRATION</h2>
+<form action="" method="post" enctype="multipart/form-data" class="form-group">
+
+<table class="table table-dark">
+
+<caption>FORM REGISTRATION</caption>
+<tr>
+<td>User Name</td>
+<td><input type="text" name="unm" class="form-control" required pattern="[A-Za-z]{3,8}" title="Enter between 3 to 8 letter onlySSS"></td>
+</tr>
+
+<tr>
+<td>Password</td>
+<td><input type="password" name="pass" class="form-control" ></td>
+</tr>
+
+<tr>
+<td>Gender</td>
+<td>
+Male:<input type="radio" name="gen" value="Male">
+Female:<input type="radio" name="gen" value="Female">
+</td>
+</tr>
+
+<tr>
+<td>Languages</td>
+<td>
+Hindi<input type="checkbox" name="lag[]" value="Hindi">
+English<input type="checkbox" name="lag[]" value="English">
+Gujarati<input type="checkbox" name="lag[]" value="Gujarati">
+</td>
+</tr>
+
+
+
+<tr>
+<td>Country</td>
+<td>
+<select name="cid" class="form-control">
+	<option value="">------Select Country-----</option>
+    <option value="India">India</option>
+    <option value="Japan">Japan</option>
+    <option value="USA">USA</option>
+    <option value="UK">UK</option>
+    <option value="China">China</option>
+</select>
+</td>
+</tr>
+
+
+
+<tr>
+<td>Comment</td>
+<td><textarea name="comment"class="form-control"></textarea></td>
+</tr>
+
+
+<tr>
+<td><input type="submit" name="submit" value="Register" class="btn btn-primary"></td>
+</tr>
+
+
+
+
+
+</table>
+</form>
+<div>
+
+
+</body>
+</html>
