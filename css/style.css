@@ -76,12 +76,6 @@ body{
 	padding:10px;
 }
 
-.mainbar img{
-	
-	width:100%;
-	float:left;
-	margin-bottom:20px;
-}
 
 .box1{
 	width:25%;
@@ -105,3 +99,9 @@ body{
 	text-decoration:none;
 }
 
+.mainbox{
+	width:25%;
+	height:auto;
+	background-color:red;
+	float:left;
+}

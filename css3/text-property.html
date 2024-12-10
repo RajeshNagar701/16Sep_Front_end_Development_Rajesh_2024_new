@@ -19,15 +19,17 @@ div.test {
   border: 1px solid #000000;
   text-overflow:ellipsis;
 }
+
+div.test:hover {
+  overflow: visible;
+}
+
 div.test1 {
   white-space: nowrap; 
   width: 200px; 
   overflow: hidden; 
   border: 1px solid #000000;
   text-overflow:clip;
-}
-div.test:hover {
-  overflow: visible;
 }
 
 div.test1:hover {
@@ -46,10 +48,7 @@ p.test2 {
   word-break: break-all;
 }
 
-
-
 span.test2 {
-	
   writing-mode: vertical-rl; 
 }
 
