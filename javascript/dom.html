@@ -1,0 +1,69 @@
+
+
+
+<!--
+innerHTML document.getElementById('text').innerHTML="<H1>text hello<H1>"  
+innerText document.getElementById('text').innerText="<H1>text hello<H1>"
+value	  document.getElementById('text').value="text hello"
+
+
+-->
+
+
+<p id="text"></p>
+
+
+
+<script>
+	document.getElementById('text').innerText="<H1>text hello<H1>"
+</script>
+
+
+
+
+
+<hr>
+
+<p id="demo"></p>
+
+
+
+<script>
+	document.getElementById('demo').innerHTML="<H1>HELLO<H1>"
+</script>
+
+
+
+<h1 id="html">Hello</h1>
+
+<span id="print" style="color:red"></span>
+
+<button id="btn1" onclick="html()">Click 1</button>
+
+<script>
+
+function html()
+	{
+		var htmlcode=document.getElementById("html").innerHTML;
+		document.getElementById("print").innerHTML=htmlcode;
+	}
+
+</script>
+
+<hr>
+
+
+
+<input type="text" id="code" placeholder="Enter Your Code">
+<input type="text" id="code1" placeholder="my data">
+<button id="btn2" onclick="input()">Click 2</button>
+
+<h1 id="inputdata"></h1>
+
+<script>
+function input()
+	{
+		var inputvalue=document.getElementById("code").value;
+		document.getElementById("code1").value=inputvalue;
+	}
+</script>

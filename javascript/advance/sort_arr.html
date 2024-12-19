@@ -1,0 +1,55 @@
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<script>
+
+
+// collections of values
+
+var fruits = ["Banana", "Orange", "Apple", "Mango","Kiwi"];
+
+document.write(fruits + "<br>");
+
+
+document.write(fruits[2] + "<br>");
+
+for(var i=0;i<fruits.length;i++)
+{
+	document.write(fruits[i] + "<br>");
+}
+
+
+// array sorting
+
+document.write(fruits.reverse() + "<br>" ); // reverse full arr
+
+
+document.write(fruits.sort() + "<br>"); // a to z
+
+
+// array manuplation
+
+fruits.push("WaterM"); // ADD VALUE IN LAST
+document.write(fruits + "<br>");
+
+
+fruits.pop("WaterM"); // Remove VALUE IN LAST
+document.write(fruits + "<br>");
+
+
+fruits.unshift("WaterM"); // add VALUE IN start
+document.write(fruits + "<br>");
+
+
+fruits.shift("WaterM"); // remove VALUE IN start
+document.write(fruits + "<br>");
+</script>
+
+</body>
+</html>
+
+
